@@ -1,3 +1,15 @@
+This is a fork from the official Heimdall repository with a workaround for flashing a Samsung A310F (2016 Exynos)
+
+## Background
+Was trying to follow [this](https://doc.e.foundation/devices/a3xelte/install) and got the following error message:
+
+``ERROR: Protocol initialisation failed!``
+
+when running the command: ``heimdall flash --RECOVERY ../../../twrp-*.*.*-*-a3xelte.img --no-reboot``.
+After looking around a bit I found [this](https://github.com/Benjamin-Dobell/Heimdall/issues/347) thread with an included workaround. That workaround is added to this repository and I did finally succeed with flashing /e/ on my phone.
+
+If you have the same issue, please pull this and follow the build instructions.
+
 # Heimdall
 
 Heimdall is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung mobile devices.
